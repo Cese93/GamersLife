@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    android:orientation="vertical"
+    tools:context="com.example.erik_.gamerslife.login.LoginActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="top"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_vertical"
+            android:lineSpacingExtra="3.3sp"
+            android:text="Login"
+            android:textColor="@color/whiteText"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:gravity="start"
+            android:lineSpacingExtra="2sp"
+            android:text="Handle your favourite games"
+            android:textColor="@color/whiteText"
+            android:textSize="14dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:gravity="bottom"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/login_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Email"
+            android:textSize="17dp"
+            app:met_baseColor="@color/whiteText"
+            app:met_floatingLabel="highlight"
+            app:met_floatingLabelText="Email"
+            app:met_iconLeft="@drawable/ic_account_circle_black_24dp"
+            app:met_iconPadding="7dp"
+            app:met_primaryColor="@color/cardBackground"
+            app:met_textColorHint="@color/floatingColor" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/login_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login_email"
+            android:layout_gravity="center"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textSize="17dp"
+            app:met_baseColor="@color/whiteText"
+            app:met_floatingLabel="highlight"
+            app:met_floatingLabelText="Password"
+            app:met_iconLeft="@drawable/ic_lock_outline_black_24dp"
+            app:met_iconPadding="7dp"
+            app:met_primaryColor="@color/cardBackground"
+            app:met_textColorHint="@color/floatingColor" />
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login_password"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:text="Login"
+            android:onClick="btnLoginClick"
+            android:textColor="@color/whiteText"
+             />
+
+        <TextView
+            android:id="@+id/login_link"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login_button"
+            android:layout_marginLeft="20dp"
+            android:onClick="createAccountClick"
+            android:gravity="center_horizontal"
+            android:text="Don't have an account? Sing up now!"
+            android:textColor="@color/whiteText" />
+    </RelativeLayout>
+
+
+</LinearLayout>

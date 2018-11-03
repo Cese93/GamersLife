@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "47134972945",
+    "firebase_url": "https://gamers-life-aafb2.firebaseio.com",
+    "project_id": "gamers-life-aafb2",
+    "storage_bucket": "gamers-life-aafb2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47134972945:android:9f22ff7b5f1f0f55",
+        "android_client_info": {
+          "package_name": "com.example.erik_.gamerslife"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47134972945-0tclb8pmaula7cmcmbsk6efe0reafc0p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.erik_.gamerslife",
+            "certificate_hash": "07b59ddb65dbb1d5eb78062dc2382ec79824b5c5"
+          }
+        },
+        {
+          "client_id": "47134972945-d1apht5pkh2um1jlgc282nm3h1drhavg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8k1nsdw-bizFHi6ZbqbOHqHWG2_WLTSY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47134972945-d1apht5pkh2um1jlgc282nm3h1drhavg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
